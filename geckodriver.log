@@ -153,3 +153,35 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1664275349608	Marionette	INFO	Stopped listening on port 46735
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1664276237612	geckodriver	INFO	Listening on 127.0.0.1:37829
+1664276238133	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "41357" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1WjwxO"
+*** You are running in headless mode.
+1664276238558	Marionette	INFO	Marionette enabled
+1664276238564	Marionette	INFO	Listening on port 43737
+WebDriver BiDi listening on ws://localhost:41357
+Read port: 43737
+1664276238678	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1WjwxO/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:41357/devtools/browser/8b5c842d-d2a4-4e6a-b307-bd1ac276d0a8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1664276332857	geckodriver	INFO	Listening on 127.0.0.1:58473
+1664276333372	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "40341" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenaLWdV"
+*** You are running in headless mode.
+1664276333788	Marionette	INFO	Marionette enabled
+1664276333794	Marionette	INFO	Listening on port 34591
+WebDriver BiDi listening on ws://localhost:40341
+Read port: 34591
+1664276334013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenaLWdV/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://localhost:40341/devtools/browser/d4388119-de54-42dc-aa66-dc073748b917
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1664276344887	Marionette	INFO	Stopped listening on port 34591
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"

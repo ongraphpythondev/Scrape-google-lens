@@ -13,7 +13,7 @@ from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
 #/home/ongraph/Desktop/googl/download_image/media/uploads/Yael-Shelbia-846x1024_1.webp
 app = Flask(__name__, static_url_path="/static", static_folder="static")
-app.config['UPLOAD_FOLDER'] = "/home/ongraph/Desktop/googl/static/media"
+app.config['UPLOAD_FOLDER'] = os.path.abspath(os.getcwd())+"/static/media"
 updir = app.config["UPLOAD_FOLDER"]
 
 @app.route('/image', methods=['GET', 'POST'])
@@ -21,9 +21,6 @@ def upload_file():
     if request.method == 'POST':
         img = request.files.get('myImage', '')
         print("jdiuei",img.filename)
-        # files = request.files
-        # print("jdiuei",files)
-        # img = files.get('myImage')
         path = os.path.join(app.config['UPLOAD_FOLDER'], img.filename)
         img.save(path)
         print("*************************",path)
