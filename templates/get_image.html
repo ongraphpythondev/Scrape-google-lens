@@ -26,14 +26,14 @@ $('#btn').submit(function(e){
     e.preventDefault();
     var form = $('#btn')[0];
     var data = new FormData(form);
-
+    console.log("insusdde",data)
     $.ajax({
     type: "POST",
     enctype: 'multipart/form-data',
     processData: false,  // Important!
     contentType: false,
     cache: false,
-    url: "/image/",
+    url: "/image",
     data: data,
     success: function(data){
         console.log("data is ")

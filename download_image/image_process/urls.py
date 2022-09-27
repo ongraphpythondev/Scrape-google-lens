@@ -1,8 +1,8 @@
 from django.urls import path
-from .views import getimage,processimage
+from .views import AllImages
 
 
 urlpatterns = [
-    path('image/', getimage, name='myImage'),
-    path('process_image/', processimage),
+    path('image/', AllImages.as_view(), name='myImage'),
+    # path('process_image/', processimage),
 ]
