@@ -1369,3 +1369,19 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1664275047472	Marionette	INFO	Stopped listening on port 35643
 Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
 console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2013\"  data: no]"
+1665060128480	geckodriver	INFO	Listening on 127.0.0.1:38287
+1665060128987	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "--remote-debugging-port" "49719" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehRB5ZZ"
+*** You are running in headless mode.
+1665060129950	Marionette	INFO	Marionette enabled
+1665060129954	Marionette	INFO	Listening on port 38669
+Read port: 38669
+WebDriver BiDi listening on ws://127.0.0.1:49719
+1665060130131	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehRB5ZZ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+DevTools listening on ws://127.0.0.1:49719/devtools/browser/d764dd0f-3244-4a9e-81c5-9f9169785fab
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.google.com."
+1665060141549	Marionette	INFO	Stopped listening on port 38669
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2009\"  data: no]"

@@ -39,7 +39,7 @@ $('#btn').submit(function(e){
         console.log("data is ")
         console.log(data.data)
         // $('out-img').remove();
-        $('out-img').html("");
+        $('#out-img').html("");
         $.each(data.data, function(key,value){
             $('#out-img').append(`<img src="`+value+`" class="output1-img"/>`)
 
