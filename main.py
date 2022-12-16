@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
 app = Flask(__name__, static_url_path="/static", static_folder="static")
-app.config['UPLOAD_FOLDER'] = os.path.abspath(os.getcwd())+"/static/media"
+app.config['UPLOAD_FOLDER'] = os.path.abspath(os.getcwd())
 updir = app.config["UPLOAD_FOLDER"]
 
 @app.route('/image', methods=['GET', 'POST'])
