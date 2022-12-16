@@ -2,9 +2,6 @@
 from flask import Flask,request,render_template,jsonify
 import os
 import time
-import bs4
-import requests
-from requests import Response
 from selenium import webdriver
 import os
 import time
