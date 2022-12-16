@@ -1,4 +1,4 @@
-# Google Similar Image
+# Scrape Google Lens
 This project scrapes the images from Google-Lens using selenium
 
 
